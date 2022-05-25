@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+:root {
+  --blueColor: #544af5;
+  --greyColor: #fbfbfb;
+  --font: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}
+
+@media only screen and (min-width: 700px) {
+  .navHome {
+    display: flex;
+  }
+}
